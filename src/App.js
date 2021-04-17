@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { clock } from 'sinon';
 
 import Timer from './Timer'
 
@@ -11,12 +12,9 @@ class App extends Component {
 
 
   //Your code here:
-
-
-
-
-
-
+  componentDidMount(){
+    this.handleAddTimer()
+  }
 
 
 
